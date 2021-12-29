@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 48px;
+    background-color: lightcoral;
+    text-shadow: 2px 2px lavenderblush;
+    font-family: Tahoma, sans-serif;
+}
+h2:first-child{
+    font-size: 48px;
+    background-color: lavenderblush;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2:nth-of-type(2){
+    text-shadow: 2px 3px lightcoral ;
+    letter-spacing: 15px;
+}
+p{
+    color: #333;
+    font-size: 20px;
+}
+nav p{
+text-indent: 50px;
+word-spacing: 10px;
+}
+section p,
+aside p{
+    line-height: 2;
+    background-color: gray;
+}
+li{
+    color: #777;
+    font-size: 20px;
+}
+li:first-child{
+    text-decoration: overline;
+}
+li:nth-child(2){
+    text-decoration: line-through ;
+    text-align: center;
+}
+li:nth-child(3){
+    text-decoration: underline;
+    text-align: right;
+}
